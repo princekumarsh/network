@@ -171,6 +171,20 @@ Route::group(['namespace' => 'Web','middleware'=>['maintenance_mode']], function
     Route::get('/dashboard-ticket-view', 'WebController@dashboard_ticket_view')->name('dashboard_ticket_view');
     Route::get('/dashboard-profile-setting', 'WebController@dashboard_profile_setting')->name('dashboard_profile_setting');
     Route::get('/dashboard-change-password', 'WebController@dashboard_change_password')->name('dashboard_change_password');
+
+    // routes for admin
+    Route::get('/admin-dashboard','WebController@admin_dashboard')->name('admin_dashboard');
+    Route::get('/admin-plans','WebController@admin_plans')->name('admin_plans');
+    Route::get('/admin-all-pins','WebController@admin_all_pins')->name('admin_all_pins');
+    Route::get('/admin-all-user-pins','WebController@admin_all_user_pins')->name('admin_all_user_pins');
+    Route::get('/admin-admin-pins','WebController@admin_admin_pins')->name('admin_admin_pins');
+    Route::get('/admin-admin-pins','WebController@admin_admin_pins')->name('admin_admin_pins');
+    Route::get('/admin-used-pins','WebController@admin_used_pins')->name('admin_used_pins');
+    Route::get('/admin-unused-pins','WebController@admin_unused_pins')->name('admin_unused_pins');
+    Route::get('/admin-user-ranking','WebController@admin_user_ranking')->name('admin_user_ranking');
+    Route::get('/admin-active-user','WebController@admin_active_user')->name('admin_active_user');
+    Route::get('/admin-banned-user','WebController@admin_banned_user')->name('admin_banned_user');
+    Route::get('/admin-email-unverified','WebController@admin_email_unverified')->name('admin_email_unverified');
 });
 
 //Seller shop apply

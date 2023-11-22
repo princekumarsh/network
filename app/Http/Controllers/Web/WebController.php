@@ -1240,4 +1240,41 @@ class WebController extends Controller
     public function dashboard_change_password(){
         return view('web-views2.user.dashboard-change-password');
     }
+
+
+
+    // admin controllers
+    public function admin_dashboard(){
+        return view('web-views2.admin.dashboard');
+    }
+    public function admin_plans(){
+        return view('web-views2.admin.plans');
+    }
+    public function admin_all_pins(){
+        return view('web-views2.admin.all-pins');
+    }
+    public function admin_all_user_pins(){
+        return view('web-views2.admin.all-user-pins');
+    }
+    public function admin_admin_pins(){
+        return view('web-views2.admin.admin-pins');
+    }
+    public function admin_used_pins(){
+        return view('web-views2.admin.used-pins');
+    }
+    public function admin_unused_pins(){
+        return view('web-views2.admin.unused-pins');
+    }
+    public function admin_user_ranking(){
+        return view('web-views2.admin.user-ranking');
+    }
+    public function admin_active_user(){
+        return view('web-views2.admin.active-user');
+    }
+    public function admin_banned_user(){
+        return view('web-views2.admin.banned-user');
+    }
+    public function admin_email_unverified(){
+        return view('web-views2.admin.email-unverified');
+    }
 }
