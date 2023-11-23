@@ -1277,4 +1277,13 @@ class WebController extends Controller
     public function admin_email_unverified(){
         return view('web-views2.admin.email-unverified');
     }
+    public function admin_mobile_unverified(){
+        return view('web-views2.admin.mobile-unverified');
+    }
+    public function admin_kyc_unverified(){
+        return view('web-views2.admin.kyc-unverified');
+    }
+    public function admin_kyc_pending(){
+        return view('web-views2.admin.kyc-pending');
+    }
 }

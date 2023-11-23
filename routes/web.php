@@ -185,6 +185,9 @@ Route::group(['namespace' => 'Web','middleware'=>['maintenance_mode']], function
     Route::get('/admin-active-user','WebController@admin_active_user')->name('admin_active_user');
     Route::get('/admin-banned-user','WebController@admin_banned_user')->name('admin_banned_user');
     Route::get('/admin-email-unverified','WebController@admin_email_unverified')->name('admin_email_unverified');
+    Route::get('/admin-mobile-unverified','WebController@admin_mobile_unverified')->name('admin_mobile_unverified');
+    Route::get('/admin-kyc-unverified','WebController@admin_kyc_unverified')->name('admin_kyc_unverified');
+    Route::get('/admin-kyc-pending','WebController@admin_kyc_pending')->name('admin_kyc_pending');
 });
 
 //Seller shop apply

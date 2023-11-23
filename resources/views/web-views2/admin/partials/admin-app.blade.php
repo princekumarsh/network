@@ -140,7 +140,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/users/mobile-unverified"
+                                        <a href="{{route('admin_mobile_unverified')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Mobile Unverified</span>
@@ -149,7 +149,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/users/kyc-unverified"
+                                        <a href="{{route('admin_kyc_unverified')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">KYC Unverified</span>
@@ -158,7 +158,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/users/kyc-pending"
+                                        <a href="{{route('admin_kyc_pending')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">KYC Pending</span>
