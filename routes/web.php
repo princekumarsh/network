@@ -188,6 +188,11 @@ Route::group(['namespace' => 'Web','middleware'=>['maintenance_mode']], function
     Route::get('/admin-mobile-unverified','WebController@admin_mobile_unverified')->name('admin_mobile_unverified');
     Route::get('/admin-kyc-unverified','WebController@admin_kyc_unverified')->name('admin_kyc_unverified');
     Route::get('/admin-kyc-pending','WebController@admin_kyc_pending')->name('admin_kyc_pending');
+    Route::get('/admin-with-balance','WebController@admin_with_balance')->name('admin_with_balance');
+    Route::get('/admin-paid-users','WebController@admin_paid_users')->name('admin_paid_users');
+    Route::get('/admin-all-users','WebController@admin_all_users')->name('admin_all_users');
+    Route::get('/admin-pending-deposits','WebController@admin_pending_deposits')->name('admin_pending_deposits');
+    Route::get('/admin-approved-deposits','WebController@admin_approved_deposits')->name('admin_approved_deposits');
 });
 
 //Seller shop apply

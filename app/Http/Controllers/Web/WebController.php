@@ -1286,4 +1286,19 @@ class WebController extends Controller
     public function admin_kyc_pending(){
         return view('web-views2.admin.kyc-pending');
     }
+    public function admin_with_balance(){
+        return view('web-views2.admin.with-balance');
+    }
+    public function admin_paid_users(){
+        return view('web-views2.admin.paid-users');
+    }
+    public function admin_all_users(){
+        return view('web-views2.admin.all-users');
+    }
+    public function admin_pending_deposits(){
+        return view('web-views2.admin.pending-deposits');
+    }
+    public function admin_approved_deposits(){
+        return view('web-views2.admin.approved-deposits');
+    }
 }

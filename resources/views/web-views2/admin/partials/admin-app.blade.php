@@ -167,7 +167,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/users/with-balance"
+                                        <a href="{{route('admin_with_balance')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">With Balance</span>
@@ -175,14 +175,14 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/users/paid" class="nav-link">
+                                        <a href="{{route('admin_paid_users')}}" class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Paid Users</span>
                                         </a>
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/users" class="nav-link">
+                                        <a href="{{route('admin_all_users')}}" class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">All Users</span>
                                         </a>
@@ -190,7 +190,7 @@
 
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/users/send-notification"
+                                        <a href="#"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Notification to All</span>
@@ -201,7 +201,7 @@
                             </div>
                         </li>
 
-                        <li class="sidebar-menu-item sidebar-dropdown">
+                        {{-- <li class="sidebar-menu-item sidebar-dropdown">
                             <a href="javascript:void(0)" class="">
                                 <i class="menu-icon las la-credit-card"></i>
                                 <span class="menu-title">Payment Gateways</span>
@@ -226,7 +226,7 @@
 
                                 </ul>
                             </div>
-                        </li>
+                        </li> --}}
 
                         <li class="sidebar-menu-item sidebar-dropdown">
                             <a href="javascript:void(0)" class="">
@@ -240,7 +240,7 @@
                                 <ul>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/deposit/pending"
+                                        <a href="{{route('admin_pending_deposits')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Pending Deposits</span>
@@ -249,7 +249,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/deposit/approved"
+                                        <a href="{{route('admin_approved_deposits')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Approved Deposits</span>
