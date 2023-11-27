@@ -257,7 +257,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/deposit/successful"
+                                        <a href="{{route('admin_successful_deposits')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Successful Deposits</span>
@@ -266,7 +266,7 @@
 
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/deposit/rejected"
+                                        <a href="{{route('admin_rejected_deposits')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Rejected Deposits</span>
@@ -276,7 +276,7 @@
 
                                     <li class="sidebar-menu-item  ">
 
-                                        <a href="https://script.viserlab.com/mlmlab/admin/deposit/initiated"
+                                        <a href="{{route('admin_initiated_deposits')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Initiated Deposits</span>
@@ -284,7 +284,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/deposit" class="nav-link">
+                                        <a href="{{route('admin_all_deposits')}}" class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">All Deposits</span>
                                         </a>
@@ -305,7 +305,7 @@
                                 <ul>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/withdraw/method"
+                                        <a href="{{route('admin_withdrawal_methods')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Withdrawal Methods</span>
@@ -313,7 +313,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/withdraw/pending"
+                                        <a href="{{route('admin_pending_withdrawals')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Pending Withdrawals</span>
@@ -323,7 +323,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/withdraw/approved"
+                                        <a href="{{route('admin_approved_withdrawals')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Approved Withdrawals</span>
@@ -331,7 +331,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/withdraw/rejected"
+                                        <a href="{{route('admin_rejected_withdrawals')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Rejected Withdrawals</span>
@@ -339,7 +339,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/withdraw/log"
+                                        <a href="{{route('admin_all_withdrawals')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">All Withdrawals</span>
@@ -362,7 +362,7 @@
                             <div class="sidebar-submenu  ">
                                 <ul>
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/ticket/pending"
+                                        <a href="{{route('admin_pending_deposits')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Pending Ticket</span>
@@ -370,21 +370,21 @@
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/ticket/closed"
+                                        <a href="{{route('admin_closed_tickets')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Closed Ticket</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/ticket/answered"
+                                        <a href="{{route('admin_answered_tickets')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Answered Ticket</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item  ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/ticket" class="nav-link">
+                                        <a href="{{route('admin_all_tickets')}}" class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">All Ticket</span>
                                         </a>

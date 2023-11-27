@@ -193,6 +193,19 @@ Route::group(['namespace' => 'Web','middleware'=>['maintenance_mode']], function
     Route::get('/admin-all-users','WebController@admin_all_users')->name('admin_all_users');
     Route::get('/admin-pending-deposits','WebController@admin_pending_deposits')->name('admin_pending_deposits');
     Route::get('/admin-approved-deposits','WebController@admin_approved_deposits')->name('admin_approved_deposits');
+    Route::get('/admin-successful-deposits','WebController@admin_successful_deposits')->name('admin_successful_deposits');
+    Route::get('/admin-rejected-deposits','WebController@admin_rejected_deposits')->name('admin_rejected_deposits');
+    Route::get('/admin-initiated-deposits','WebController@admin_initiated_deposits')->name('admin_initiated_deposits');
+    Route::get('/admin-all-deposits','WebController@admin_all_deposits')->name('admin_all_deposits');
+    Route::get('/admin-withdrawal-methods','WebController@admin_withdrawal_methods')->name('admin_withdrawal_methods');
+    Route::get('/admin-pending-withdrawals','WebController@admin_pending_withdrawals')->name('admin_pending_withdrawals');
+    Route::get('/admin-approved-withdrawals','WebController@admin_approved_withdrawals')->name('admin_approved_withdrawals');
+    Route::get('/admin-rejected-withdrawals','WebController@admin_rejected_withdrawals')->name('admin_rejected_withdrawals');
+    Route::get('/admin-all-withdrawals','WebController@admin_all_withdrawals')->name('admin_all_withdrawals');
+    Route::get('/admin-pending-tickets','WebController@admin_pending_tickets')->name('admin_pending_tickets');
+    Route::get('/admin-closed-tickets','WebController@admin_closed_tickets')->name('admin_closed_tickets');
+    Route::get('/admin-answered-tickets','WebController@admin_answered_tickets')->name('admin_answered_tickets');
+    Route::get('/admin-all-tickets','WebController@admin_all_tickets')->name('admin_all_tickets');
 });
 
 //Seller shop apply

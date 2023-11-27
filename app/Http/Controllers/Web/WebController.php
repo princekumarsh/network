@@ -1301,4 +1301,43 @@ class WebController extends Controller
     public function admin_approved_deposits(){
         return view('web-views2.admin.approved-deposits');
     }
+    public function admin_successful_deposits(){
+        return view('web-views2.admin.successful-deposits');
+    }
+    public function admin_rejected_deposits(){
+        return view('web-views2.admin.rejected-deposits');
+    }
+    public function admin_initiated_deposits(){
+        return view('web-views2.admin.initiated-deposits');
+    }
+    public function admin_all_deposits(){
+        return view('web-views2.admin.all-deposits');
+    }
+    public function admin_withdrawal_methods(){
+        return view('web-views2.admin.withdrawal-methods');
+    }
+    public function admin_pending_withdrawals(){
+        return view('web-views2.admin.pending-withdrawals');
+    }
+    public function admin_approved_withdrawals(){
+        return view('web-views2.admin.approved-withdrawals');
+    }
+    public function admin_rejected_withdrawals(){
+        return view('web-views2.admin.rejected-withdrawals');
+    }
+    public function admin_all_withdrawals(){
+        return view('web-views2.admin.all-withdrawals');
+    }
+    public function admin_pending_tickets(){
+        return view('web-views2.admin.pending-tickets');
+    }
+    public function admin_closed_tickets(){
+        return view('web-views2.admin.closed-tickets');
+    }
+    public function admin_answered_tickets(){
+        return view('web-views2.admin.answered-tickets');
+    }
+    public function admin_all_tickets(){
+        return view('web-views2.admin.all-tickets');
+    }
 }
