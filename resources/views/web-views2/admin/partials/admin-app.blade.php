@@ -402,7 +402,7 @@
                             <div class="sidebar-submenu  ">
                                 <ul>
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/report/transaction"
+                                        <a href="{{route('admin_transaction_log')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Transaction Log</span>
@@ -410,21 +410,21 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/report/invest"
+                                        <a href="{{route('admin_invest_log')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Invest Log</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/report/bv-log"
+                                        <a href="{{route('admin_bv_log')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">BV Log</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/report/referral-commission"
+                                        <a href="{{route('admin_referral_commission')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Referral Commission</span>
@@ -432,7 +432,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/report/binary-commission"
+                                        <a href="{{route('admin_binary_commission')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Binary Commission</span>
@@ -440,7 +440,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/report/login/history"
+                                        <a href="{{route('admin_login_history')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Login History</span>
@@ -448,7 +448,7 @@
                                     </li>
 
                                     <li class="sidebar-menu-item ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/report/notification/history"
+                                        <a href="{{route('admin_notification_history')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Notification History</span>
@@ -461,7 +461,7 @@
 
 
                         <li class="sidebar-menu-item  ">
-                            <a href="https://script.viserlab.com/mlmlab/admin/subscriber" class="nav-link"
+                            <a href="{{route('admin_subscriber')}}" class="nav-link"
                                 data-default-url="https://script.viserlab.com/mlmlab/admin/subscriber">
                                 <i class="menu-icon las la-thumbs-up"></i>
                                 <span class="menu-title">Subscribers </span>
@@ -500,7 +500,7 @@
                         </li>
 
                         <li class="sidebar-menu-item ">
-                            <a href="https://script.viserlab.com/mlmlab/admin/setting/logo-icon" class="nav-link">
+                            <a href="{{route('admin_logo_favicon')}}" class="nav-link">
                                 <i class="menu-icon las la-images"></i>
                                 <span class="menu-title">Logo & Favicon</span>
                             </a>
@@ -576,7 +576,7 @@
 
                         <li class="sidebar__menu-header">Frontend Manager</li>
 
-                        <li class="sidebar-menu-item ">
+                        {{-- <li class="sidebar-menu-item ">
                             <a href="https://script.viserlab.com/mlmlab/admin/frontend/templates" class="nav-link ">
                                 <i class="menu-icon la la-html5"></i>
                                 <span class="menu-title">Manage Templates</span>
@@ -588,7 +588,7 @@
                                 <i class="menu-icon la la-list"></i>
                                 <span class="menu-title">Manage Pages</span>
                             </a>
-                        </li>
+                        </li> --}}
 
                         <li class="sidebar-menu-item sidebar-dropdown">
                             <a href="javascript:void(0)" class="">
@@ -598,63 +598,63 @@
                             <div class="sidebar-submenu  ">
                                 <ul>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/about"
+                                        <a href="{{route('admin_about_us')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">About Us</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/banner"
+                                        <a href="{{route('admin_banner_section')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Banner Section</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/blog"
+                                        <a href="{{route('admin_blog_section')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Blog Section</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/breadcrumb"
+                                        <a href="{{route('admin_breadcrumb')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Breadcrumb</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/contact_us"
+                                        <a href="{{route('admin_contact_us')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Contact Us</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/counter"
+                                        <a href="{{route('admin_counter_section')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Counter Section</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/faq"
+                                        <a href="{{route('admin_faq_section')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">FAQ Section</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/footer"
+                                        <a href="{{route('admin_footer_section')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">Footer Section</span>
                                         </a>
                                     </li>
                                     <li class="sidebar-menu-item   ">
-                                        <a href="https://script.viserlab.com/mlmlab/admin/frontend/frontend-sections/how_it_works"
+                                        <a href="{{route('admin_how_it_works')}}"
                                             class="nav-link">
                                             <i class="menu-icon las la-dot-circle"></i>
                                             <span class="menu-title">How It Works</span>
@@ -759,13 +759,13 @@
 
 
                         <li class="sidebar-menu-item ">
-                            <a href="https://script.viserlab.com/mlmlab/admin/maintenance-mode" class="nav-link">
+                            <a href="{{route('admin_maintenance_mode')}}" class="nav-link">
                                 <i class="menu-icon las la-robot"></i>
                                 <span class="menu-title">Maintenance Mode</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-menu-item ">
+                        {{-- <li class="sidebar-menu-item ">
                             <a href="https://script.viserlab.com/mlmlab/admin/cookie" class="nav-link">
                                 <i class="menu-icon las la-cookie-bite"></i>
                                 <span class="menu-title">GDPR Cookie</span>
@@ -823,7 +823,7 @@
                                 <i class="menu-icon las la-bug"></i>
                                 <span class="menu-title">Report & Request </span>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                     <div class="text-center mb-3 text-uppercase">
                         <span class="text--primary">mlmlab</span>

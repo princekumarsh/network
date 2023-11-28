@@ -206,6 +206,27 @@ Route::group(['namespace' => 'Web','middleware'=>['maintenance_mode']], function
     Route::get('/admin-closed-tickets','WebController@admin_closed_tickets')->name('admin_closed_tickets');
     Route::get('/admin-answered-tickets','WebController@admin_answered_tickets')->name('admin_answered_tickets');
     Route::get('/admin-all-tickets','WebController@admin_all_tickets')->name('admin_all_tickets');
+    Route::get('/admin-transaction-log','WebController@admin_transaction_log')->name('admin_transaction_log');
+    Route::get('/admin-invest-log','WebController@admin_invest_log')->name('admin_invest_log');
+    Route::get('/admin-bv-log','WebController@admin_bv_log')->name('admin_bv_log');
+    Route::get('/admin-referral-commission','WebController@admin_referral_commission')->name('admin_referral_commission');
+    Route::get('/admin-binary-commission','WebController@admin_binary_commission')->name('admin_binary_commission');
+    Route::get('/admin-login-history','WebController@admin_login_history')->name('admin_login_history');
+    Route::get('/admin-notification-history','WebController@admin_notification_history')->name('admin_notification_history');
+    Route::get('/admin-subscriber','WebController@admin_subscriber')->name('admin_subscriber');
+    Route::get('/admin-logo-favicon','WebController@admin_logo_favicon')->name('admin_logo_favicon');
+    Route::get('/admin-maintenance-mode','WebController@admin_maintenance_mode')->name('admin_maintenance_mode');
+    Route::get('/admin-about-us','WebController@admin_about_us')->name('admin_about_us');
+    Route::get('/admin-banner-section','WebController@admin_banner_section')->name('admin_banner_section');
+    Route::get('/admin-blog-section','WebController@admin_blog_section')->name('admin_blog_section');
+    Route::get('/admin-breadcrumb','WebController@admin_breadcrumb')->name('admin_breadcrumb');
+    Route::get('/admin-contact-us','WebController@admin_contact_us')->name('admin_contact_us');
+    Route::get('/admin-counter-section','WebController@admin_counter_section')->name('admin_counter_section');
+    Route::get('/admin-faq-section','WebController@admin_faq_section')->name('admin_faq_section');
+    Route::get('/admin-footer-section','WebController@admin_footer_section')->name('admin_footer_section');
+    Route::get('/admin-how-it-works','WebController@admin_how_it_works')->name('admin_how_it_works');
+
+
 });
 
 //Seller shop apply

@@ -1340,4 +1340,61 @@ class WebController extends Controller
     public function admin_all_tickets(){
         return view('web-views2.admin.all-tickets');
     }
+    public function admin_transaction_log(){
+        return view('web-views2.admin.transaction-log');
+    }
+    public function admin_invest_log(){
+        return view('web-views2.admin.invest-log');
+    }
+    public function admin_bv_log(){
+        return view('web-views2.admin.bv-log');
+    }
+    public function admin_referral_commission(){
+        return view('web-views2.admin.referral-commission');
+    }
+    public function admin_binary_commission(){
+        return view('web-views2.admin.binary-commission');
+    }
+    public function admin_login_history(){
+        return view('web-views2.admin.login-history');
+    }
+    public function admin_notification_history(){
+        return view('web-views2.admin.notification-history');
+    }
+    public function admin_subscriber(){
+        return view('web-views2.admin.subscriber');
+    }
+    public function admin_logo_favicon(){
+        return view('web-views2.admin.logo-favicon');
+    }
+    public function admin_maintenance_mode(){
+        return view('web-views2.admin.maintenance-mode');
+    }
+    public function admin_about_us(){
+        return view('web-views2.admin.about-us');
+    }
+    public function admin_banner_section(){
+        return view('web-views2.admin.banner-section');
+    }
+    public function admin_blog_section(){
+        return view('web-views2.admin.blog-section');
+    }
+    public function admin_breadcrumb(){
+        return view('web-views2.admin.breadcrumb');
+    }
+    public function admin_contact_us(){
+        return view('web-views2.admin.contact-us');
+    }
+    public function admin_counter_section(){
+        return view('web-views2.admin.counter-section');
+    }
+    public function admin_faq_section(){
+        return view('web-views2.admin.faq-section');
+    }
+    public function admin_footer_section(){
+        return view('web-views2.admin.footer-section');
+    }
+    public function admin_how_it_works(){
+        return view('web-views2.admin.how-it-works');
+    }
 }
